@@ -291,6 +291,121 @@ export const stratagems = {
     title: 'AX/AR-23 "Guard Dog"',
     code: 'swawds',
   },
+  orbital_napalm_barrage: {
+    id: 'orbital_napalm_barrage',
+    title: 'Orbital Napalm Barrage',
+    code: 'ddsadw',
+  },
+  one_true_flag: {
+    id: 'one_true_flag',
+    title: 'CQC-1 One True Flag',
+    code: 'saddw',
+  },
+  de_escalator: {
+    id: 'de_excalator',
+    title: 'GL-52 De-Escalator',
+    code: 'sdwad',
+  },
+  sterilizer: {
+    id: 'sterilizer',
+    title: 'TX-41 Sterilizer',
+    code: 'sawsa',
+  },
+  commando: {
+    id: 'commando',
+    title: 'MLS-4X Commando',
+    code: 'sawsd',
+  },
+  airburst_rocket_launcher: {
+    id: 'airburst_rocket_launcher',
+    title: 'RL-77 Airburst Rocket Launcher',
+    code: 'swwad',
+  },
+  wasp_launcher: {
+    id: 'wasp_launcher',
+    title: 'StA-X3 W.A.S.P. Launcher',
+    code: 'sswsd',
+  },
+  portable_hellbomb: {
+    id: 'portable_hellbomb',
+    title: 'B-100 Portable Hellbomb"',
+    code: 'sdwww',
+  },
+  hover_pack: {
+    id: 'hover_pack',
+    title: 'LIFT-860 Hover Pack',
+    code: 'swwsad',
+  },
+  directional_shield_backpack: {
+    id: 'directional_shield_backpack',
+    title: 'SH-51 Directional Shield Backpack',
+    code: 'swadww',
+  },
+  guard_dog_k9: {
+    id: 'guard_dog_k9',
+    title: 'AX/ARC-3 "Guard Dog" K-9',
+    code: 'swawda',
+  },
+  guard_dog_dog_breath: {
+    id: 'guard_dog_dog_breath',
+    title: 'AX/TX-13 "Guard Dog" Dog Breath',
+    code: 'swawdw',
+  },
+  fast_recon_vehicle: {
+    id: 'fast_recon_vehicle',
+    title: 'M-102 Fast Recon Vehicle',
+    code: 'asdsdsw',
+  },
+  emancipator_exosuit: {
+    id: 'emancipator_exosuit',
+    title: 'EXO-49 Emancipator Exosuit',
+    code: 'asdwasw',
+  },
+  patriot_exosuit: {
+    id: 'patriot_exosuit',
+    title: 'EXO-45 Patriot Exosuit',
+    code: 'asdwass',
+  },
+  flame_sentry: {
+    id: 'flame_sentry',
+    title: 'E/FLAM-40 Flame Sentry',
+    code: 'swdsww',
+  },
+  mortar_sentry: {
+    id: 'mortar_sentry',
+    title: 'A/M-12 Mortar Sentry',
+    code: 'swdsd',
+  },
+  grenadier_battlement: {
+    id: 'grenadier_battlement',
+    title: 'E/GL-21 Grenadier Battlement',
+    code: 'sdsad',
+  },
+  anti_tank_emplacement: {
+    id: 'anti_tank_emplacement',
+    title: 'E/AT-12 Anti-Tank Emplacement',
+    code: 'swaddd',
+  },
+  tesla_tower: {
+    id: 'tesla_tower',
+    title: 'A/ARC-3 Tesla Tower',
+    code: 'swdwad',
+  },
+  anti_tank_mines: {
+    id: 'anti_tank_mines',
+    title: 'MD-17 Anti-Tank Mines',
+    code: 'saww',
+  },
+  gas_mines: {
+    id: 'gas_mines',
+    title: 'MD-8 Gas Mines',
+    code: 'saad',
+  },
+  hive_breaker_drill: {
+    id: 'hive_breaker_drill',
+    title: 'hive_breaker_drill',
+    code: 'awsdss',
+  },
 } as const satisfies Record<Stratagem['id'], Stratagem>;
 
 export type StratagemID = keyof typeof stratagems;
