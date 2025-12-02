@@ -27,8 +27,8 @@ const makeRounds = (): Array<StratagemID[]> => {
 
   const chunks: Array<StratagemID[]> = [];
 
-  for (index = 0; index < stratagemsIDs.length; index += 16) {
-    chunks.push(stratagemsIDs.slice(index, index + 16) as StratagemID[]);
+  for (index = 0; index < stratagemsIDs.length; index += 8) {
+    chunks.push(stratagemsIDs.slice(index, index + 8) as StratagemID[]);
   }
 
   return chunks;
